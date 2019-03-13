@@ -1,0 +1,144 @@
+17:44:55.003 INFO  - Processing command line option -hwspec D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw/system.xml. 
+19:03:58.504 INFO  - Project standalone_bsp_0 was a BSP project. Please update references. 
+19:03:58.505 ERROR - SDK has detected that project standalone_bsp_0 has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+19:06:22.671 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+19:07:39.227 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:07:39.327 INFO  - PS initialization will be done as it is not done before. 
+19:07:39.327 INFO  - Running PS initialization.... 
+19:07:39.620 INFO  - ps7_init is completed. 
+19:07:39.720 INFO  - ps7_post_config is completed. 
+19:07:39.820 INFO  - PS Initialization is complete. 
+20:04:29.278 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:04:29.378 INFO  - PS initialization will be done as it is not done before. 
+20:04:29.378 INFO  - Running PS initialization.... 
+20:04:29.673 INFO  - ps7_init is completed. 
+20:04:29.681 INFO  - ps7_post_config is completed. 
+20:04:29.781 INFO  - PS Initialization is complete. 
+20:04:48.202 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:04:51.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:04:53.030 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:05:34.505 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:05:42.063 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:07:06.705 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:09:15.503 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+20:10:18.585 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:10:18.685 INFO  - PS initialization will be done as it is not done before. 
+20:10:18.685 INFO  - Running PS initialization.... 
+20:10:19.015 INFO  - ps7_init is completed. 
+20:10:19.115 INFO  - ps7_post_config is completed. 
+20:10:19.215 INFO  - PS Initialization is complete. 
+20:13:26.787 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+20:13:26.793 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:17:06.543 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:18:52.353 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:18:52.453 INFO  - PS initialization will be done as it is not done before. 
+20:18:52.453 INFO  - Running PS initialization.... 
+20:18:52.757 INFO  - ps7_init is completed. 
+20:18:52.857 INFO  - ps7_post_config is completed. 
+20:18:52.957 INFO  - PS Initialization is complete. 
+20:19:32.728 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:20:00.931 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:20:02.543 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:21:07.870 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:21:07.873 INFO  - PS initialization will be done as it is not done before. 
+20:21:07.874 INFO  - Running PS initialization.... 
+20:21:08.171 INFO  - ps7_init is completed. 
+20:21:08.271 INFO  - ps7_post_config is completed. 
+20:21:08.371 INFO  - PS Initialization is complete. 
+20:21:38.878 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:22:06.428 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:38:27.839 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:38:42.906 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:38:43.006 INFO  - PS initialization will be done as it is not done before. 
+20:38:43.006 INFO  - Running PS initialization.... 
+20:38:43.344 INFO  - ps7_init is completed. 
+20:38:43.444 INFO  - ps7_post_config is completed. 
+20:38:43.544 INFO  - PS Initialization is complete. 
+20:47:09.972 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:47:29.707 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:47:29.807 INFO  - PS initialization will be done as it is not done before. 
+20:47:29.807 INFO  - Running PS initialization.... 
+20:47:30.128 INFO  - ps7_init is completed. 
+20:47:30.228 INFO  - ps7_post_config is completed. 
+20:47:30.425 INFO  - PS Initialization is complete. 
+20:51:20.092 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:51:30.776 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:51:30.876 INFO  - PS initialization will be done as it is not done before. 
+20:51:30.876 INFO  - Running PS initialization.... 
+20:51:31.174 INFO  - ps7_init is completed. 
+20:51:31.274 INFO  - ps7_post_config is completed. 
+20:51:31.374 INFO  - PS Initialization is complete. 
+20:52:26.727 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:52:29.753 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:58:11.003 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:58:12.620 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:58:36.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:00:05.641 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:00:09.939 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:03:08.013 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:03:29.870 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+22:13:30.965 INFO  - FPGA configured successfully with bitstream "D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+22:13:52.952 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:13:53.052 INFO  - PS initialization will be done as it is not done before. 
+22:13:53.052 INFO  - Running PS initialization.... 
+22:13:53.382 INFO  - ps7_init is completed. 
+22:13:53.482 INFO  - ps7_post_config is completed. 
+22:13:53.582 INFO  - PS Initialization is complete. 
+22:16:52.066 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:17:29.422 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:17:57.297 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:24:32.491 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:25:26.876 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:25:50.567 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:27:01.657 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:27:59.957 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:28:19.990 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:28:21.589 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:29:16.097 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:30:56.941 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:31:48.902 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:34:06.599 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:34:30.671 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:36:36.867 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:42:07.527 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:43:33.121 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:44:41.100 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:45:13.548 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:46:27.176 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:49:25.399 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:50:13.149 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:35:51.102 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

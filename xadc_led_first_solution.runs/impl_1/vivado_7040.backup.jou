@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sun Aug 10 17:32:52 2014
+# Process ID: 3116
+# Log file: D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.runs/impl_1/system_wrapper.rdi
+# Journal file: D:/PFE-Install/Vivado/2013.4/my_job/xadc_led_first_solution/xadc_led_first_solution.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
